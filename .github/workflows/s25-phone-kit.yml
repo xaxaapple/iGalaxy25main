@@ -1,6 +1,3 @@
-# The Galaxy S25 kit: the runtime package (built with the pinned NDK) and the phone probe in one artifact, for a
-# manual run. Download the artifact, push the probe with adb, run it as root, and send its .tar.gz back
-# (docs/s25.md, "What the probe answers"). Nothing of Apple's is downloaded or packed here.
 name: s25-phone-kit
 on:
   workflow_dispatch:
